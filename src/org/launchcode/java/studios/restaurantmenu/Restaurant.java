@@ -16,6 +16,7 @@ public class Restaurant {
         newMenu.addItem(menuItem3);
         newMenu.addItem(menuItem4);
         menuItem3.changeIsNew();
+        menuItem1.changeIsNew();
 
         System.out.println(newMenu);
 
